@@ -1,0 +1,81 @@
+# === Папки Visual Studio ===
+.vs/
+.vscode/
+.idea/
+
+# === Папки сборки ===
+Debug/
+Release/
+x64/
+x86/
+ARM/
+ARM64/
+ipch/
+[Bb]uild/
+[Bb]in/
+[Oo]bj/
+out/
+
+# === Файлы пользователя и настройки IDE ===
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# === Файлы IntelliSense ===
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+*.VC.db-shm
+*.VC.db-wal
+
+# === Промежуточные файлы компиляции ===
+*.obj
+*.o
+*.pch
+*.pdb
+*.ilk
+*.idb
+*.lib
+*.dll
+*.exp
+*.log
+*.tlog
+*.lastbuildstate
+*.manifest
+*.res
+*.iobj
+*.ipdb
+
+# === Исполняемые файлы ===
+*.exe
+*.dll
+*.so
+*.dylib
+
+# === Файлы тестов ===
+*.cachefile
+*.VC.db
+
+# === NuGet ===
+packages/
+*.nupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+
+# === CMake (если используется) ===
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CMakeSettings.json
+
+# === Прочее ===
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.tmp
+*.bak
+*.swp
+*~
